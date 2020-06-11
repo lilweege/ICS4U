@@ -10,7 +10,7 @@ public class SuperJava {
 
 		JLabel info = new JLabel(
 				"MUCH CODE, VERY WOW!",
-				new ImageIcon(new ImageIcon("image.jpg").getImage().getScaledInstance(300, 300, Image.SCALE_REPLICATE)),
+				new ImageIcon(new ImageIcon("image.jpg").getImage().getScaledInstance(300, 300, Image.SCALE_AREA_AVERAGING)),
 				JLabel.CENTER);
 		info.setForeground(Color.RED);
 		info.setFont(new Font("Serif", Font.BOLD, 24));
